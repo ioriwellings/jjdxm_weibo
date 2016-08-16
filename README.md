@@ -1,7 +1,7 @@
 # [jjdxm_weibo][project] #
 
 ## Introduction ##
-社会化第三方登录、分享实现流程
+### 当前项目是将社会化第三方登录、分享中实现微博分享、微博授权登录等功能，使用到微博提供的SDK进行一个在线打包。为了方便在各个项目中快速的接入微博的sdk，特定将微博提供的SDK文件打包到jCenter上面，直接使用compile命令进行依赖即可。 ###
 
 ## Screenshots ##
 
@@ -10,9 +10,6 @@
 
 ## Download ##
 
-[demo apk下载][downapk]
-
-[下载最新版本aar][lastaar]
 
 Download or grab via Maven:
 
@@ -25,6 +22,10 @@ Download or grab via Maven:
 or Gradle:
 
 	compile 'weibo:jjdxm-weibo:x.x.x'
+
+历史版本
+
+	compile 'weibo:jjdxm-weibo:1.0.0' 对应的微博weiboSDKCore_3.1.4.jar
 
 
 jjdxm-weibo requires at minimum Java 15 or Android 4.0.
