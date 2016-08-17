@@ -39,9 +39,9 @@ or Gradle:
 
 	compile 'weibo:jjdxm-weibo:1.0.0' 对应的微博weiboSDKCore_3.1.4.jar
 
-[架包的打包引用以及冲突解决][jaraar]
+jjdxm-weibo requires at minimum Java 15 or Android 4.0.
 
-jjdxm-periscope requires at minimum Java 15 or Android 4.0.
+[架包的打包引用以及冲突解决][jaraar]
 
 ## Proguard ##
 
