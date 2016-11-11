@@ -9,7 +9,7 @@ ext {
     jjdxm_groupId = 'com.dou361.weibo'
     jjdxm_artifactId = 'jjdxm-weibo'
 
-    jjdxm_libraryVersion = '1.0.0'
+    jjdxm_libraryVersion = '1.0.1'
     jjdxm_libraryName = 'jjdxm-weibo'
     jjdxm_libraryDescription = 'this is a weibo library of the application'
 
