@@ -15,6 +15,8 @@
 ## Introduction ##
 ### 当前项目是将社会化第三方登录、分享中实现微博分享、微博授权登录等功能，使用到微博提供的SDK进行一个在线打包。为了方便在各个项目中快速的接入微博的sdk，特定将微博提供的SDK文件打包到jCenter上面，直接使用compile命令进行依赖即可。 ###
 
+新浪微博sdk官方下载地址：[https://github.com/sinaweibosdk/weibo_android_sdk](https://github.com/sinaweibosdk/weibo_android_sdk)
+
 ## Screenshots ##
 
 <img src="https://raw.githubusercontent.com/jjdxmashl/jjdxm_weibo/master/screenshots/icon01.png" width="300"> 
@@ -26,20 +28,21 @@
 Download or grab via Maven:
 
 	<dependency>
-	  <groupId>weibo</groupId>
+	  <groupId>com.dou361.weibo</groupId>
 	  <artifactId>jjdxm-weibo</artifactId>
 	  <version>x.x.x</version>
 	</dependency>
 
 or Gradle:
 
-	compile 'weibo:jjdxm-weibo:x.x.x'
+	compile 'com.dou361.weibo:jjdxm-weibo:x.x.x'
 
 历史版本
 
-	compile 'weibo:jjdxm-weibo:1.0.0' 对应的微博weiboSDKCore_3.1.4.jar
+	compile 'com.dou361.weibo:jjdxm-weibo:1.0.1' 对应的微博weiboSDKCore_3.1.4.jar
+	compile 'com.dou361.weibo:jjdxm-weibo:1.0.0' 对应的微博weiboSDKCore_3.1.4.jar
 
-jjdxm-weibo requires at minimum Java 15 or Android 4.0.
+jjdxm-weibo requires at minimum Java 9 or Android 2.3.
 
 [架包的打包引用以及冲突解决][jaraar]
 
